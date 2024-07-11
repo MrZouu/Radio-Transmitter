@@ -8,10 +8,14 @@ This project is an Arduino-based remote control system designed for wirelessly p
 # Summary
 
 * **[Summary](#summary)**
-* **[Dependencies](#dependencies)**
+* **[Material list](#material-list)**
 * **[Credits](#credits)**
 
 <br/>
+
+# Material list
+
+* [**Arduino Pro Mini**]  ----Description
 
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Creator of the project.
