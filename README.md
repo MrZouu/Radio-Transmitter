@@ -35,7 +35,26 @@ List of materials needed for the project :
 # 3D Design
 
 The 3D model for the controller box was printed using a Creality Ender 3 3D printer. 
-The material used for printing is PLA (Polylactic Acid).
+
+I used PLA material to print my version.
+
+<p align="center"><b>Case</b></p>
+<p align="center">
+	<img src="images/case.PNG" width="550">
+</p>
+
+<p align="center">
+	<img src="images/case_top.PNG" width="550">
+</p>
+
+<p align="center"><b>Cover</b></p>
+<p align="center">
+	<img src="images/cover.PNG" width="550">
+</p>
+
+<p align="center">
+	<img src="images/cover_top.PNG" width="550">
+</p>
 
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Creator of the project.
