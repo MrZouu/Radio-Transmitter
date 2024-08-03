@@ -8,12 +8,19 @@ This project is an Arduino-based remote control system designed for wirelessly p
 # Summary
 
 * **[Summary](#summary)**
+* **[Schematic](#schematic)**
 * **[Material list](#material-list)**
+* **[3D Design](#3d-design)**
 * **[Credits](#credits)**
 
 <br/>
 
+# Schematic
+Description of the circuit schematic.
+
 # Material list
+
+List of materials needed for the project :
 
 * [**Arduino Pro Mini**](https://docs.arduino.cc/retired/boards/arduino-pro-mini/) : A compact and low-power microcontroller board based on the ATmega328P.
 * [**FTDI Adapter**](https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf) : An interface module used for programming the Arduino Pro Mini.
@@ -24,6 +31,11 @@ This project is an Arduino-based remote control system designed for wirelessly p
 * [**ON-OFF-ON Switch MTS-103**](https://www.electronicoscaldas.com/datasheet/MTS-SMTS-Series.pdf) : A toggle switch with three positions.
 * [**Lithium Battery**](https://fr.aliexpress.com/item/1005006163347585.html?spm=a2g0o.order_list.order_list_main.541.bad55e5bJhcdJm&gatewayAdapt=glo2fra) : A rechargeable lithium-ion battery providing 350mAh capacity at 3.7V, supplying power to the remote control.
 * [**OLED Display SSD1306**](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) : OLED screen using I2C protocol, displaying various information and status messages.
+
+# 3D Design
+
+The 3D model for the controller box was printed using a Creality Ender 3 3D printer. 
+The material used for printing is PLA (Polylactic Acid).
 
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Creator of the project.
