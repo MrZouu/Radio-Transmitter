@@ -62,7 +62,7 @@ I used PLA material to print my version.
 	<img src="images/cover_top.PNG" width="550">
 </p>
 
-The STL files for the cover and the case can be found in the STL directory : **`case_3D.stl`** and **`cover_3D.stl`**.
+The STL files for the case and the cover can be found in the STL directory : **`case_3D.stl`** and **`cover_3D.stl`**.
 
 # Assembled Remote Control
 
