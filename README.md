@@ -11,6 +11,7 @@ This project is an Arduino-based remote control system designed for wirelessly p
 * **[Schematic](#schematic)**
 * **[Material list](#material-list)**
 * **[3D Design](#3d-design)**
+* **[Assembled Remote Control](#assembled-remote-control)**
 * **[Credits](#credits)**
 
 <br/>
@@ -31,6 +32,11 @@ List of materials needed for the project :
 * [**ON-OFF-ON Switch MTS-103**](https://www.electronicoscaldas.com/datasheet/MTS-SMTS-Series.pdf) : A toggle switch with three positions.
 * [**Lithium Battery**](https://fr.aliexpress.com/item/1005006163347585.html?spm=a2g0o.order_list.order_list_main.541.bad55e5bJhcdJm&gatewayAdapt=glo2fra) : A rechargeable lithium-ion battery providing 350mAh capacity at 3.7V, supplying power to the remote control.
 * [**OLED Display SSD1306**](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) : OLED screen using I2C protocol, displaying various information and status messages.
+* [**NRF24L01 Wireless Adapter Module 3.3V**](https://protosupplies.com/product/nrf24l01-breakout-adapter-with-voltage-regulator/) : A module to facilitate wireless communication for the NRF24L01 at 3.3V.
+
+Additionally, you will need filament for 3D printing, an ON-OFF switch for power supply, electrical wires to connect components, threaded inserts, and screws.
+
+<br/>
 
 # 3D Design
 
@@ -54,6 +60,18 @@ I used PLA material to print my version.
 
 <p align="center">
 	<img src="images/cover_top.PNG" width="550">
+</p>
+
+# Assembled Remote Control
+
+This section provides a visual overview of the completed project, demonstrating the layout and design.
+
+
+<p align="center">
+	<img src="images/radio-transmitter_top.jpg" width="650">
+</p>
+<p align="center">
+	<img src="images/radio-transmitter.jpg" width="650">
 </p>
 
 #  Credits
