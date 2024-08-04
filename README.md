@@ -17,7 +17,11 @@ This project is an Arduino-based remote control system designed for wirelessly p
 <br/>
 
 # Schematic
-Description of the circuit schematic.
+Description of the circuit schematic, created in Proteus.
+<p align="center"><b>Schematic</b></p>
+<p align="center">
+	<img src="images/schematic_proteus.png" width="650">
+</p>
 
 # Material list
 
