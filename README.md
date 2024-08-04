@@ -44,9 +44,9 @@ Additionally, you will need filament for 3D printing, an ON-OFF switch for power
 
 # 3D Design
 
-The 3D model for the controller box was printed using a Creality Ender 3 3D printer. 
+The 3D models used in this project are modifications of the original design by [Emilostuff](https://www.youtube.com/watch?v=I6TKGMbHcfo&list=WL&index=1&t=24s). 
 
-I used PLA material to print my version.
+These modifications were made using Shapr3D to better fit the specific components and layout of the remote control.
 
 <p align="center"><b>Case</b></p>
 <p align="center">
@@ -72,6 +72,7 @@ The STL files for the case and the cover can be found in the STL directory : **`
 
 This section provides a visual overview of the completed project, demonstrating the layout and design.
 
+The 3D model for the controller box was printed using a Creality Ender 3 3D printer. I used PLA material to print my version.
 
 <p align="center">
 	<img src="images/radio-transmitter_top.jpg" width="650">
