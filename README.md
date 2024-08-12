@@ -56,7 +56,9 @@ Additionally, you will need filament for 3D printing, an ON-OFF switch for power
   * *TX mode* : Active mode for transmitting packets. PWR_UP bit set high, PRIM_RX bit set low, a payload in the TX FIFO and a high pulse on the CE. If CE = 0, nRF24L01+ returns to
 standby-I mode.
 
-
+<p align="center">
+	<img src="images/Operational _modes_configuration.png" width="550">
+</p>
 
 **Custom Frequency Setting**:
 
