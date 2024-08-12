@@ -42,6 +42,28 @@ Additionally, you will need filament for 3D printing, an ON-OFF switch for power
 
 <br/>
 
+# Technical Overview
+
+**NRF24L01+** :  highly efficient 2.4GHz wireless transceiver module designed for short-range communication.
+* **Frequency Range**: Operates on frequencies from 2.400GHz to 2.525GHz.
+* **Channel Resolution**: The RF channel frequency setting can be adjusted with a programming resolution of 1MHz.
+  
+* **Operational Modes**: The module can be configured in power down, standby, RX (receive), or TX (transmit) mode :
+  * *Power Down Mode* : nRF24L01+ is disabled using minimal current consumption.
+  * *Standby-I mode* : Only part of the crystal oscillator is active. Change to active modes only happens if CE is set high.
+  * *Standby-II mode* : Extra clock buffers are active. Enters standby-II mode if CE is held high on a PTX device with an empty TX FIFO.
+  * *RX mode* : nRF24L01+ radio is used as a receiver. Must have the PWR_UP bit, PRIM_RX bit and the CE pin set high.
+  * *TX mode* : Active mode for transmitting packets. PWR_UP bit set high, PRIM_RX bit set low, a payload in the TX FIFO and a high pulse on the CE. If CE = 0, nRF24L01+ returns to
+standby-I mode.
+
+
+
+**Custom Frequency Setting**:
+
+Modify the operational frequency by configuring the RF_CH register.
+* `Frequency (MHz) = 2400 + RF_CH (MHz)` :  setting RF_CH to 2 will configure the module to operate at 2.402GHz.
+So, the module supports 125 selectable channels within its 2.400GHz to 2.525GHz range, each with a 1MHz resolution.
+
 # 3D Design
 
 The 3D models used in this project are modifications of the original design by [Emilostuff](https://www.youtube.com/watch?v=I6TKGMbHcfo&list=WL&index=1&t=24s). 
