@@ -1,6 +1,14 @@
 # Radio-Transmitter
 This project is an Arduino-based remote control system designed for wirelessly piloting various projects, including drones, robots, and more.
 
+<br/>
+
+<p align="center">
+	<img src="images/radiotransmitter_illustration.png" width="800">
+</p>
+
+<br/>
+
 ***Project date : 2024***
 
 <br/>
